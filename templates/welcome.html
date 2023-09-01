@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+    <link rel="stylesheet" href="/static/custom.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Page</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+
+<body>
+
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <!-- Header -->
+  <h1>Hello And Welcome to My website!</h1>
+
+  <!-- subline  -->
+  <h2>this project was started to display our talent on flask database visualizations</h2>
+
+  <p>this first chart deals with the reviewer-description relationship!</p>
+
+  <!-- plot  -->
+  <div id="plot"></div>
+    <script>
+    </script>
+    <script src="{{ url_for('static', filename='plots.js') }}"></script>
+  <!-- <div id="plot"></div>
+
+  <select id="selDataset">
+    <option value="dataset1">DataSet1</option>
+    <option value="dataset2">DataSet2</option>
+  </select>
+
+  <script src="plots.js"></script> -->
+</body>
+
+</html>
